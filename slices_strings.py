@@ -10,7 +10,8 @@ s = "cat"
 #s[0] = 'r' #this would give an error
 #instead
 # this is how you replace a letter
-s = "r" + s[1:0]
+s = "r" + s[1:]
+print(s)
 
 s = "seven" #i want to change it to se7en
 s = s[:2] + "7" + s[3:]
